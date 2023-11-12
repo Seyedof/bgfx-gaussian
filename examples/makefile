@@ -104,6 +104,7 @@ rebuild:
 	@make -s --no-print-directory rebuild -C 47-pixelformats
 	@make -s --no-print-directory rebuild -C 48-drawindirect
 	@make -s --no-print-directory rebuild -C 49-hextile
+	@make -s --no-print-directory rebuild -C 50-gaussian-splatting
 
 rebuild-embedded:
 	@make -s --no-print-directory rebuild -C 02-metaballs
